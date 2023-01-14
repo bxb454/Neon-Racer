@@ -4,6 +4,14 @@ A procedurally-generated vaporwave-themed racing game.
 
 The main objective of Neon-Racer is to drive as far as you can without running out of time on the clock.
 
+#Included in this repo:
+
+-Download links to Neon-Racer on the App Store and Google Play Store.
+
+-Code for the game
+
+-Gameplay instructions
+
 ## Instructions / How to Play:
 
 Upon loading the game, you will be greeted with a menu screen. On the menu screen there are 3 options:
@@ -18,7 +26,13 @@ Pressing the `Quit` button will exit the game.
 
 ### Main Gameplay:
 
-The timer will always start at 100 seconds, and the game will run 
+The timer will always start at 100 seconds, and the game will continue to run until you have run out of time.
+
+In order to prevent running out of time, you must drive through a checkpoint (pictured below). Each checkpoint pass adds 20 seconds to the clock.
+
+(CHECKPOINT IMAGE)
+
+The score counter will increase by 1 for every meter traveled. 
 
 (IMAGE OF TIMER HERE)
 
