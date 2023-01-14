@@ -14,6 +14,9 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 ## Instructions / How to Play:
 
+![image](https://user-images.githubusercontent.com/90420976/212464722-778f7652-2f59-470e-bb63-832d6cb03075.png)
+
+
 Upon loading the game, you will be greeted with a menu screen. On the menu screen there are 3 options:
 
 -Play
