@@ -56,9 +56,3 @@ The Garage is where you can customize your vehicle's color using a , provided by
 Drag and tap the color sliders in order to change the vehicle's color (shown below). Upon changing your vehicle's color, it will automatically save.
 
 Once finished, you can press the `SAVE AND RETURN` button to return to the Main Menu.
-
-
-
-
-
-
