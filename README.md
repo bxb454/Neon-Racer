@@ -26,6 +26,9 @@ Pressing the `Quit` button will exit the game.
 
 ### Main Gameplay:
 
+![image](https://user-images.githubusercontent.com/90420976/212464580-e6445deb-bf4e-4b41-a907-e693a3a11505.png)
+
+
 The timer will always start at 100 seconds, and the game will continue to run until you have run out of time.
 
 In order to prevent running out of time, you must drive through a checkpoint (pictured below). Each checkpoint pass adds 20 seconds to the clock.
