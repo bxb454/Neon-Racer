@@ -52,7 +52,7 @@ by the player.
 
 Pressing the Pause button (shown below) will pause the game and allow the player to resume the game, or 
 
-(PAUSE BUTTON AND QUIT/RESUME BUTTON IMAGE HERE)
+![image](https://user-images.githubusercontent.com/90420976/212464645-7fed8a6d-bbea-4b1a-8f2e-4d3d01f61f76.png)
 
 ### The Garage: 
 
