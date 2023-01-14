@@ -44,7 +44,8 @@ To control the vehicle, use the joystick to control acceleration and steering of
 Pressing the `Respawn` button will respawn the vehicle at a coordinate position saved by the game that has already been reached
 by the player.
 
-(IMAGE OF RESPAWN BUTTON HERE)
+![image](https://user-images.githubusercontent.com/90420976/212458326-12e273e7-3c69-4f21-a4a8-c465133aba78.png)
+
 
 Pressing the Pause button (shown below) will pause the game and allow the player to resume the game, or 
 
