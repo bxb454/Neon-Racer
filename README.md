@@ -53,6 +53,10 @@ Pressing the Pause button (shown below) will pause the game and allow the player
 
 ### The Garage: 
 
+
+https://user-images.githubusercontent.com/90420976/212462258-b1a19ab5-c688-4b05-af63-3a18da5fe843.mp4
+
+
 The Garage is where you can customize your vehicle's color using a , provided by the FlexibileColorPicker Plugin for Unity. 
 
 Drag and tap the color sliders in order to change the vehicle's color (shown below). Upon changing your vehicle's color, it will automatically save.
