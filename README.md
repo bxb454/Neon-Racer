@@ -6,7 +6,7 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 # Included in this repo:
 
--Download links to Neon-Racer on the App Store and Google Play Store.
+-Download link to Neon Racer on the Google Play Store.
 
 -Code for the game
 
