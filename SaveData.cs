@@ -1,34 +1,34 @@
 using UnityEngine;
 using System.IO;
+using System.Text;
+using System;
 
 /// <summary>
-/// This class handles the menu screen for the Main Menu scene.
+/// This class is used to save and load data to a JSON file with Base64 encoding and decoding to prevent the file from being easily
+/// readable by the user.
 /// </summary>
 public class SaveData : MonoBehaviour {
-
-[SerializeField] private PlayerData playerData;
 private string path = "";
 private string persistentPath = "";
 
-    void Start() {
-        initializePlayerData();
-        setPath();
-        load();
-    }
+/// <summary>
+///Nested data type that acts as the 'type' of data to be stored in the JSON file.
+[System.Serializable]
+public class Data {
+    public float score;
+    public Material material;
+    public Color color;
+}
+
+//Declare data type
+public Data data = new Data();
 
     ///<summary>
-    ///Initialize player data.
+    ///Method that is called when the script is loaded.
     ///</summary>
-    private void initializePlayerData() {
-        playerData = new PlayerData();
-        Color temp;
-        if (ColorUtility.TryParseHtmlString(playerData.GetColor("color"), out temp)) {
-            playerData.color = temp;
-            Debug.Log("Color: " + playerData.color);
-        }
-        //playerData.color = playerData.GetColor("color");
-        playerData.score = playerData.GetScore("score");
-        
+    void Start() {
+        setPath();
+        load();
     }
 
     ///<summary>
@@ -43,26 +43,22 @@ private string persistentPath = "";
     ///Save the player data to the JSON file.
     ///</summary>
     public void save() {
-        //PlayerData data = new PlayerData(playerData.getScore());
         string savePath = persistentPath;
         Debug.Log("Saving to: " + savePath);
-        //Debug.Log("Score: " + playerData.GetScore("score") + " Color: " + playerData.GetColor("color"));
-        string json = JsonUtility.ToJson(playerData);
+        string json = JsonUtility.ToJson(data);
         Debug.Log("Saved data: " + json);
         //File.WriteAllText(savePath, json);
-        using StreamWriter writer = new StreamWriter(savePath);
-            writer.Write(json);
+        File.WriteAllText(savePath, Convert.ToBase64String(Encoding.UTF8.GetBytes(json)));
     }
 
     ///<summary>
     ///Load the player data from the JSON file.
     ///</summary>
     public void load() {
-        string savePath = path;
-        using StreamReader reader = new StreamReader(savePath);
-            string json = reader.ReadToEnd();
-            playerData = JsonUtility.FromJson<PlayerData>(json);
-            Debug.Log("Loading from: " + savePath);
+        string savePath = persistentPath;
+        Debug.Log("Loading from: " + savePath);
+       string json = File.ReadAllText(savePath);
+            data = JsonUtility.FromJson<Data>(Encoding.UTF8.GetString(Convert.FromBase64String(json)));
             Debug.Log("Loaded: " + json);
     }
 
@@ -70,7 +66,8 @@ private string persistentPath = "";
     ///Update the player data.
     ///</summary>
     void Update() {
+        //Set color to be the same as the material color.
+        data.color = data.material.color;
         save();
-        load();
     }
 }
