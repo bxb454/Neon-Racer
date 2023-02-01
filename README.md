@@ -45,7 +45,7 @@ To control the vehicle, use the joystick to control acceleration and steering of
 ![image](https://user-images.githubusercontent.com/90420976/212458281-8cf7b5d9-5be5-4466-8e2e-9a4f82be8b9b.png)
 
 
-Pressing the `Respawn` button will respawn the vehicle at a coordinate position saved by the game that has already been reached
+Pressing the `RESPAWN` button will respawn the vehicle at a coordinate position saved by the game that has already been reached
 by the player.
 
 ![image](https://user-images.githubusercontent.com/90420976/212458326-12e273e7-3c69-4f21-a4a8-c465133aba78.png)
