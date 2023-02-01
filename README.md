@@ -39,11 +39,15 @@ The timer will always start at 100 seconds, and the game will continue to run un
 
 In order to prevent running out of time, you must drive through a checkpoint. Each checkpoint pass adds 20 seconds to the clock. The score counter will increase by 1 for every meter traveled. 
 
+Your score increases the further you drive across the randomly-generated track. Coins can be found on the track, pictured below.
+
+![coin](https://user-images.githubusercontent.com/90420976/215988792-a65a5e62-9582-4491-9685-421f483f46a7.JPG)
+
+Each coin increases your score by 5000 points.
 
 To control the vehicle, use the joystick to control acceleration and steering of your car.
 
 ![image](https://user-images.githubusercontent.com/90420976/212458281-8cf7b5d9-5be5-4466-8e2e-9a4f82be8b9b.png)
-
 
 Pressing the `RESPAWN` button will respawn the vehicle at a coordinate position saved by the game that has already been reached
 by the player.
