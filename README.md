@@ -14,8 +14,7 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 ## Instructions / How to Play:
 
-![image](https://user-images.githubusercontent.com/90420976/212464722-778f7652-2f59-470e-bb63-832d6cb03075.png)
-
+![scrsht4](https://user-images.githubusercontent.com/90420976/215986651-4f6937d1-d1d3-48c5-89a9-3584035ed732.JPG)
 
 Upon loading the game, you will be greeted with a menu screen. On the menu screen there are 3 options:
 
@@ -29,18 +28,13 @@ Pressing the `Quit` button will exit the game.
 
 ### Main Gameplay:
 
-![image](https://user-images.githubusercontent.com/90420976/212464580-e6445deb-bf4e-4b41-a907-e693a3a11505.png)
+![scrsht3](https://user-images.githubusercontent.com/90420976/215986734-22924f1a-41a5-4c7e-b144-b59d95c6521b.JPG)
 
 
 The timer will always start at 100 seconds, and the game will continue to run until you have run out of time.
 
-In order to prevent running out of time, you must drive through a checkpoint (pictured below). Each checkpoint pass adds 20 seconds to the clock.
+In order to prevent running out of time, you must drive through a checkpoint. Each checkpoint pass adds 20 seconds to the clock. The score counter will increase by 1 for every meter traveled. 
 
-(CHECKPOINT IMAGE)
-
-The score counter will increase by 1 for every meter traveled. 
-
-(IMAGE OF TIMER HERE)
 
 To control the vehicle, use the joystick to control acceleration and steering of your car.
 
