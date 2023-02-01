@@ -10,10 +10,8 @@ using TMPro;
 /// </summary>
 public class MenuScreen : MonoBehaviour {
     [SerializeField] private Image screenFader;
-    // Start is called before the first frame update
     [SerializeField] private Button startButton;
     [SerializeField] private Button quitButton;
-    [SerializeField] private Button optionsButton;
     [SerializeField] private Button garageButton;
 
     /// <summary>
@@ -25,30 +23,19 @@ public class MenuScreen : MonoBehaviour {
         LeanTween.alpha(screenFader.rectTransform, 1, 1.1f).setOnComplete(() => {
             SceneManager.LoadScene("MainGame");
         });
-        Debug.Log("Start button clicked");
     }
 
     /// <summary>
     /// When the quit button is clicked, quit the application.
     /// </summary>
     public void onQuitButtonClick() {
-        Debug.Log("Quit button clicked");
         Application.Quit();
-    }
-
-    /// <summary>
-    /// When the options button is clicked, load the options scene.
-    /// </summary>
-    public void onOptionsButtonClick() {
-        Debug.Log("Options button clicked");
-        //SceneManager.LoadScene("Options");
     }
 
     /// <summary>
     /// When the garage button is clicked, load the garage scene.
     /// </summary>
     public void onGarageButtonClick() {
-        Debug.Log("Garage button clicked");
         SceneManager.LoadScene("Garage");
     }
 
@@ -57,5 +44,6 @@ public class MenuScreen : MonoBehaviour {
     /// </summary>
     void Start() {
         LeanTween.reset();
+        screenFader.gameObject.SetActive(false);
     }
 }
