@@ -24,9 +24,11 @@ Upon loading the game, you will be greeted with a menu screen. On the menu scree
 
 `QUIT`
 
-Pressing the `Play` button will lead you to the main game.
-Pressing the `Garage` button will lead you to the garage, where you can customize the color of your car.
-Pressing the `Quit` button will exit the game.
+Pressing the `PLAY` button will lead you to the main game.
+
+Pressing the `GARAGE` button will lead you to the garage, where you can customize the color of your car.
+
+Pressing the `QUIT` button will exit the game.
 
 ### Main Gameplay:
 
