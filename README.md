@@ -18,9 +18,11 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 Upon loading the game, you will be greeted with a menu screen. On the menu screen there are 3 options:
 
--Play
--Garage
--Quit
+`PLAY`
+
+`GARAGE`
+
+`QUIT`
 
 Pressing the `Play` button will lead you to the main game.
 Pressing the `Garage` button will lead you to the garage, where you can customize the color of your car.
@@ -61,4 +63,4 @@ The Garage is where you can customize your vehicle's color using a hexadecimal-b
 
 Drag and tap the color sliders in order to change the vehicle's color (shown below). Upon changing your vehicle's color, it will automatically save.
 
-Once finished, you can press the `SAVE AND RETURN` button to return to the Main Menu.
+Once finished, you can press the `SAVE AND RETURN TO MENU` button to return to the Main Menu.
