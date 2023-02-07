@@ -12,7 +12,7 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 -Gameplay instructions
 
-##DOWNLOAD LINK: https://play.google.com/store/apps/details?id=com.BorisBrondz.NeonRacer
+## DOWNLOAD LINK: https://play.google.com/store/apps/details?id=com.BorisBrondz.NeonRacer
 
 ## Instructions / How to Play:
 
