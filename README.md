@@ -12,6 +12,8 @@ The main objective of Neon-Racer is to drive as far as you can without running o
 
 -Gameplay instructions
 
+##DOWNLOAD LINK: https://play.google.com/store/apps/details?id=com.BorisBrondz.NeonRacer
+
 ## Instructions / How to Play:
 
 ![scrsht4](https://user-images.githubusercontent.com/90420976/215986651-4f6937d1-d1d3-48c5-89a9-3584035ed732.JPG)
@@ -55,7 +57,7 @@ by the player.
 ![image](https://user-images.githubusercontent.com/90420976/212458326-12e273e7-3c69-4f21-a4a8-c465133aba78.png)
 
 
-Pressing the Pause button (shown below) will pause the game and allow the player to resume the game, or 
+Pressing the Pause button (shown below) will pause the game and allow the player to resume the game, or to quit.
 
 ![image](https://user-images.githubusercontent.com/90420976/212464645-7fed8a6d-bbea-4b1a-8f2e-4d3d01f61f76.png)
 
